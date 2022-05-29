@@ -1,4 +1,11 @@
 .footer__copyright {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+
+  display: flex;
+  margin-right: 50px;
   width: 186px;
   height: 16px;
   font-family: 'Inter';

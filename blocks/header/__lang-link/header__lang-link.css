@@ -1,4 +1,9 @@
 .header__lang-link {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+
   display: block;
   width: 30px;
   height: 28px;
@@ -12,9 +17,11 @@
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: underline;
+  text-decoration-line: none;
+
 }
 
 .header__lang-link:last-child {
   margin-right: 0px;
+  text-decoration-line: underline;
 }

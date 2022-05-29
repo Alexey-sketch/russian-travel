@@ -1,4 +1,7 @@
 .footer__links {
-  display: inline;
-
-}
+  display: flex;
+  flex-direction: row;
+  max-width: 1184px;
+  margin-left: 48px;
+  margin-top: 92px;
+  }

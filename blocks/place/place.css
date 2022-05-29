@@ -1,0 +1,14 @@
+.place {
+  display: grid;
+  width: 984px;
+  /*width: 984px;*/
+  height: 660px; /*
+  padding-bottom: 100%; */
+  margin: auto;
+  margin-top: 80px;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px 40px;
+
+}

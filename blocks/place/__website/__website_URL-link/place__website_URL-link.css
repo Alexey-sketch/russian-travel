@@ -1,21 +1,20 @@
-.footer__link {
+.place__website_URL-link {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 
-  width: 50px;
-  height: 18px;
-  margin-right: 18px;
+  width: 456px;
+  height: 22px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
   color: #FFFFFF;
-  direction: none;
 }
 
-.footer__link:hover {
+.place__website_URL-link:hover {
   opacity: 0.8;
 }
