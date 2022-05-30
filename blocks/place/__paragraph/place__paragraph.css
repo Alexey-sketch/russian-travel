@@ -4,8 +4,8 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 
-  width: 484px;
-  height: 145px;
+  max-width: 484px;
+  max-height: 145px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
