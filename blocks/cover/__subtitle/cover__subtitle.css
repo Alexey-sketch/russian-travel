@@ -3,8 +3,6 @@
   justify-content: center;
   margin: auto;
   max-width: 360px;
-  height: 66px;
-  /* высота в прочентах от экрана браузера */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -15,5 +13,4 @@
   padding-top: 32px;
   z-index: 2;
   position: relative;
-
 }

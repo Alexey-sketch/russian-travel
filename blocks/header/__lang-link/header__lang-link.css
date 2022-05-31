@@ -3,10 +3,8 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-
   display: block;
-  width: 30px;
-  height: 28px;
+  min-width: 30px;
   margin-right: 18px;
   margin-top: 18px;
   margin-bottom: 6px;
@@ -18,7 +16,6 @@
   line-height: 28px;
   text-align: right;
   text-decoration-line: none;
-
 }
 
 .header__lang-link:last-child {

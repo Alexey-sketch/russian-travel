@@ -3,11 +3,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-
   display: flex;
   margin-right: 50px;
-  width: 186px;
-  height: 16px;
+  min-width: 186px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;

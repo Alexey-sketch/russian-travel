@@ -2,7 +2,6 @@
   display: flex;
   margin: auto;
   max-width: 560px;
-  height: 152px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -11,8 +10,6 @@
   text-align: center;
   color: #FFFFFF;
   padding-top: 245px;
-  margin-right: 312px;
-  margin-left: 312px;
   z-index: 2;
   position: relative;
 }

@@ -1,29 +1,10 @@
 .photo-grid {
   display: grid;
-  justify-content: center;
   justify-items: center;
-  max-height: 671px;
-  /* вместо height
-  padding-bottom: 100%; */
   margin: auto;
   margin-top: 92px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-template-rows: repeat(3, 1fr);
   gap: 16px 16px;
-/* это должна быть ширина каждой колонки
-  width: calc((100% - 60px)/4);
-
- @media screen and (max-width: 425px) {
-  .content__columns {
-        flex-direction: column;
-    }
-    .content__column {
-        width: 100%;
-        margin-bottom: 60px;
-    }
-}
-
-  */
 }
 
 @media screen and (max-width: 1024px) {
@@ -35,10 +16,10 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         }
-      }
+  }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
           grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
           }
-        }
+  }
