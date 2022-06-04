@@ -9,3 +9,16 @@
 }
 
 
+@media screen and (max-width: 320px) {
+  .place {
+    margin-top: 64px;
+    grid-template-rows: 1;
+    grid-template-columns: 320px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+
+}
+}

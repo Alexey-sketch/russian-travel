@@ -4,3 +4,27 @@
   margin-right: 48px;
   margin-left: 48px;
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-top: 28px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+    max-width: 875px;
+  }
+}

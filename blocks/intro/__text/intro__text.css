@@ -3,6 +3,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  display: flex;
   max-width: 690px;
   font-family: 'Inter';
   font-style: normal;
@@ -14,3 +15,23 @@
   margin-top: 40px;
   }
 
+  @media screen and (max-width: 320px) {
+    .intro__text {
+      max-width: 288px;
+      margin-left: 16px;
+      margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .intro__text {
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .intro__text {
+      max-width: 690px;
+    }
+  }

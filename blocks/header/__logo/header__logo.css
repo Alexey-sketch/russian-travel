@@ -6,3 +6,19 @@
   border-radius: 0px;
   margin-top: 28px;
 }
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-height: 42px;
+    max-width: 142px;
+    margin-top: 16px;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-left: 48px;
+
+  }
+}
