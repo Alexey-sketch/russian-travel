@@ -8,11 +8,9 @@
   gap: 40px 40px;
 }
 
-@media screen and (max-width: 320px) {
-  .place {
-    margin-top: 64px;
-    grid-template-rows: 1;
-
+@media screen and (max-width: 1024px) {
+  .place {/*
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));*/
   }
 }
 
@@ -22,7 +20,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
   .place {
+    margin-top: 64px;
+    grid-template-rows: 1;
+    grid-template-columns: 1fr;
   }
 }

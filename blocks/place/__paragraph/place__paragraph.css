@@ -14,12 +14,9 @@
   margin-top: 0px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   .place__paragraph {
-    max-width: 288px;
-    font-size: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
+    max-width: 456px;
   }
 }
 
@@ -29,8 +26,11 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
   .place__paragraph {
-    max-width: 456px;
+    max-width: 288px;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
