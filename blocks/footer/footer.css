@@ -4,7 +4,6 @@
   margin: auto;
   margin-top: 92px;
   padding-bottom: 24px;
-  margin-left: 48px;
 }
 
 
@@ -13,7 +12,6 @@
     flex-direction: column;
     margin-left: 16px;
     margin-top: 32px;
-
   }
 }
 
@@ -22,6 +20,5 @@
   .footer {
     margin-left: 24px;
     margin-top: 88px;
-
   }
 }

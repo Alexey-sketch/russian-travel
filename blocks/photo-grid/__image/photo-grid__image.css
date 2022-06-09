@@ -10,21 +10,19 @@
     max-width: 352px;
     max-height: 264px;
     margin-left: 24px;
-     }
+  }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid__image {
     max-width: 288px;
     max-height: 216px;
-
-     }
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid__image {
     max-width: 300px;
     max-height: 225px;
-
-     }
+  }
 }

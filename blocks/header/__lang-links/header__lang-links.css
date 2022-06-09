@@ -6,6 +6,5 @@
   @media screen and (max-width: 320px) {
     .header__lang-links {
       justify-content: flex-end;
-
     }
   }
