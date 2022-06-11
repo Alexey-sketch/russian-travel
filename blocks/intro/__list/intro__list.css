@@ -17,6 +17,12 @@
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    margin-top: 33px;
+    }
+}
+
 @media screen and (max-width: 768px) {
   .intro__list {
     margin-left: 24px;

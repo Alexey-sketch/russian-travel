@@ -3,8 +3,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  width: 456px;
-  height: 22px;
+
   font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -16,4 +15,11 @@
 
 .place__url-link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+.place__url-link {
+  margin-top: 12px;
+  margin-left: 16px;
+  }
 }

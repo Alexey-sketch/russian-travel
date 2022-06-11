@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
-    margin-top: 106px;
+    margin-top: 48px;
   }
 }
 
@@ -35,7 +35,7 @@
     font-size: 40px;
     line-height: 44px;
     letter-spacing: 0em;
-    margin-top: 106px;
+    margin-top: 48px;
     max-width: 288px;
   }
 }

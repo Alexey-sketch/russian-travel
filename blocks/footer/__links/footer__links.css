@@ -3,13 +3,25 @@
   flex-direction: row;
   max-width: 1184px;
   margin-left: 48px;
-  margin-top: 92px;
   }
 
+  @media screen and (max-width: 1024px) {
+    .footer__links {
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer__links {
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
   @media screen and (max-width: 320px) {
     .footer__links {
       flex-direction: column;
       margin-left: 0;
+      margin-top: 0;
     }
   }
 
