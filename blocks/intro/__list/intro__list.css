@@ -3,38 +3,39 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  max-width: 690px;
+  max-width: 100%;
   font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
   color: #FFFFFF;
-  margin-left: 148px;
+  padding-left: 148px;
+  padding-right: 442px;
   margin-top: 33px;
   list-style-type: none;
-  padding: 0;
   margin-bottom: 0px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-width: 1279px) {
   .intro__list {
     margin-top: 33px;
+    padding-left: 48px;
+    padding-right: 286px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width: 1023px) {
   .intro__list {
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) and (max-width: 767px) {
   .intro__list {
-    max-width: 288px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-top: 34px;
   }
 }
