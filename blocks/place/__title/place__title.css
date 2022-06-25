@@ -16,11 +16,7 @@
   margin-bottom: 0px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1239px) {
-  .place__title {
-    margin-left: 48px;
-    }
-}
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title {

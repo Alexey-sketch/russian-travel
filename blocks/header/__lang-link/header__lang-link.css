@@ -6,6 +6,7 @@
   display: block;
   margin-right: 18px;
   margin-top: 46px;
+  margin-bottom: 0;
   color: #FFFFFF;
   font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
   font-style: normal;
@@ -19,10 +20,6 @@
   cursor: pointer;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;;
-}
-
 .header__lang-link:last-child {
   margin-right: 0px;
 }
@@ -32,6 +29,6 @@
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0em;
-  margin-top: 14px;
+  margin-top: 30px;
   }
 }

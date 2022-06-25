@@ -14,20 +14,19 @@
   text-align: right;
   color: #FFFFFF;
   align-items: flex-end;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer__copyright {
     margin-right: 48px;
     margin-top: 0px;
-    margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer__copyright {
     margin-right: 24px;
-    margin-bottom: 0;
   }
 }
 
