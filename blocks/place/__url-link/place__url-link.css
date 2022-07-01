@@ -3,7 +3,6 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-
   font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11,6 +10,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+
 }
 
 .place__url-link:hover {

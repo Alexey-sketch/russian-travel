@@ -1,6 +1,7 @@
 .cover__title {
-  display: flex;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   max-width: 560px;
   font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
   font-style: normal;
@@ -11,6 +12,7 @@
   color: #FFFFFF;
   padding-top: 245px;
   z-index: 2;
+  margin: 0;
   }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -20,4 +22,3 @@
   margin-top: 33px;
   }
 }
-

@@ -1,7 +1,7 @@
 .lead__image {
   display: flex;
   margin: auto;
-  width: calc(100% - 296px);
+  max-width: calc(100% - 277px);
   margin-top: 64px;
   object-fit: cover;
   }
@@ -9,20 +9,21 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__image {
     margin-top: 56px;
-    width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
+    max-height: 615px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__image {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .lead__image {
     margin-top: 40px;
-    width: 100%;
+    min-width: 100%;
   }
 }
 
