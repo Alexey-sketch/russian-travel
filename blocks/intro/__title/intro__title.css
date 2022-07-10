@@ -22,8 +22,8 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__title {
     margin-top: 88px;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 24px;
+
   }
 }
 
@@ -34,5 +34,6 @@
     padding-right: 16px;
     font-size: 32px;
     line-height: 35px;
+    max-width: 222px;
   }
 }

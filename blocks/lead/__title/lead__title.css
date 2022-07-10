@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .lead__title {
     margin-top: 48px;
 
@@ -35,5 +35,6 @@
     font-size: 40px;
     line-height: 44px;
     min-width: 288px;
+    margin-left: 13px;
   }
 }
