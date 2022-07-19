@@ -20,5 +20,6 @@
   .footer {
     flex-direction: column;
     padding-left: 16px;
+    margin-top: -44px;
   }
 }
