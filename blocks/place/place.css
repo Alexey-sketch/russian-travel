@@ -6,7 +6,7 @@
   padding-right: 148px;
   padding-top: 80px;
   grid-template-columns: 460px 1fr;
-  gap: 40px 40px;
+  gap: 0px 40px;
   box-sizing: border-box;
 }
 
