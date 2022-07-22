@@ -8,15 +8,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.6;
   color: #FFFFFF;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  padding-bottom: 9px;
+  padding-top: 0px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1239px){
   .place__paragraph {
     max-width: 456px;
+    padding-bottom: 0;
   }
 }
 
@@ -28,7 +29,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .place__paragraph {
-    max-width: 352px;
+    min-width: 364px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    padding-top: 4px;
   }
 }
 
@@ -37,6 +41,7 @@
     padding-left: 15px;
     padding-right: 0px;
     max-width: 282px;
-    margin-bottom: -38px;
+    padding-bottom: 0px;
+    padding-top: 7px;
   }
 }

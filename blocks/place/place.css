@@ -4,9 +4,9 @@
   max-width: 100%;
   padding-left: 148px;
   padding-right: 148px;
-  padding-top: 80px;
+  padding-top: 18px;
   grid-template-columns: 460px 1fr;
-  gap: 0px 40px;
+  gap: 40px;
   box-sizing: border-box;
 }
 
@@ -16,6 +16,7 @@
     padding-left: 48px;
     padding-right: 38px;
     gap: 32px;
+    padding-top: 20px;
   }
 }
 

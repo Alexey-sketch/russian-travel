@@ -5,23 +5,30 @@
   text-rendering: optimizeLegibility;
   max-width: 460px;
   align-self: end;
-  font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   color: #FFFFFF;
-  margin-top: 0;
-  padding-bottom: 1px;
+  padding-top: 0;
+  padding-bottom: 9px;
+  margin-bottom: 0px;
 }
 
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__title {
+    padding-bottom: 15px;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title {
     padding-left: 10px;
     font-size: 42px;
     line-height: 46px;
+    padding-bottom: 15px;
   }
 }
 
@@ -33,6 +40,7 @@
     line-height: 35px;
     padding-left: 14px;
     padding-right: 32px;
-    margin-top: 0px;
+    padding-top: 0px;
+    margin-top: 0;
   }
 }
