@@ -4,7 +4,7 @@
   justify-items: center;
   max-width: 100%;
   padding-right: 30px;
-  padding-left: 51px;
+  padding-left: 49px;
   margin-top: 92px;
   grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
   gap: 16px;
@@ -20,8 +20,8 @@
   .photo-grid {
     margin-top: 88px;
     gap: 16px;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 9px;
+    padding-left: 19px;
   }
 }
 
