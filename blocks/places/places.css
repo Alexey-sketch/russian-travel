@@ -4,19 +4,20 @@
   flex-wrap: wrap;
   margin: 0 auto;
   padding-top: 12px;
-  padding-bottom: 24px;
+  padding-bottom: 78px;
   }
 
   @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .places {
       padding-top: 16px;
+      padding-bottom: 47px;
     }
   }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .places {
     padding-top: 38px;
-    padding-bottom: 2px;
+    padding-bottom: 4px;
   }
 }
 
